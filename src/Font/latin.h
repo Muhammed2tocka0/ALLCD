@@ -1,0 +1,48 @@
+#ifndef LATIN_FONT_H
+#define LATIN_FONT_H
+
+const byte CHAR_E_ACUTE[8] = {
+  B00000,
+  B00100,
+  B00000,
+  B01110,
+  B10000,
+  B11100,
+  B10000,
+  B01110
+};
+
+const byte CHAR_N_TILDE[8] = {
+  B00000,
+  B01010,
+  B10101,
+  B10001,
+  B10001,
+  B10001,
+  B10001,
+  B00000
+};
+
+const byte CHAR_A_UMLAUT[8] = {
+  B01010,
+  B00000,
+  B01110,
+  B10001,
+  B11111,
+  B10001,
+  B10001,
+  B00000
+};
+
+const byte CHAR_C_CEDILLA_LATIN[8] = {
+  B00000,
+  B01110,
+  B10000,
+  B10000,
+  B10000,
+  B01110,
+  B00100,
+  B01000
+};
+
+#endif

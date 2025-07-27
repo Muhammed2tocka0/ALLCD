@@ -1,0 +1,59 @@
+#ifndef CYRILLIC_FONT_H
+#define CYRILLIC_FONT_H
+
+const byte CHAR_YA[8] = {
+  B11110,
+  B10001,
+  B10001,
+  B11110,
+  B10100,
+  B10010,
+  B10001,
+  B00000
+};
+
+const byte CHAR_YU[8] = {
+  B10010,
+  B10010,
+  B10010,
+  B11111,
+  B10010,
+  B10010,
+  B10010,
+  B00000
+};
+
+const byte CHAR_ZHE[8] = {
+  B10101,
+  B10101,
+  B01110,
+  B00100,
+  B01110,
+  B10101,
+  B10101,
+  B00000
+};
+
+const byte CHAR_SHA[8] = {
+  B10001,
+  B10001,
+  B10001,
+  B10001,
+  B10001,
+  B10001,
+  B11111,
+  B00000
+};
+
+const byte CHAR_E_REVERSED[8] = {
+  B01110,
+  B10000,
+  B01100,
+  B00010,
+  B00010,
+  B10010,
+  B01100,
+  B00000
+};
+
+#endif

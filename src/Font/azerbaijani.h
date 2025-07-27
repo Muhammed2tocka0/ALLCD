@@ -1,0 +1,70 @@
+#ifndef AZERBAIJANI_FONT_H
+#define AZERBAIJANI_FONT_H
+
+const byte CHAR_C_CEDILLA[8] = {
+  B00000,
+  B01110,
+  B10000,
+  B10000,
+  B10000,
+  B01110,
+  B00100,
+  B01000
+};
+
+const byte CHAR_G_BREVE[8] = {
+  B00100,
+  B00000,
+  B01110,
+  B10000,
+  B10110,
+  B10001,
+  B01110,
+  B00000
+};
+
+const byte CHAR_I_DOTLESS[8] = {
+  B00000,
+  B00000,
+  B01110,
+  B00100,
+  B00100,
+  B00100,
+  B01110,
+  B00000
+};
+
+const byte CHAR_O_UMLAUT[8] = {
+  B01010,
+  B00000,
+  B01110,
+  B10001,
+  B10001,
+  B10001,
+  B01110,
+  B00000
+};
+
+const byte CHAR_S_CEDILLA[8] = {
+  B00000,
+  B01111,
+  B10000,
+  B01110,
+  B00001,
+  B11110,
+  B00100,
+  B01000
+};
+
+const byte CHAR_U_UMLAUT[8] = {
+  B01010,
+  B00000,
+  B10001,
+  B10001,
+  B10001,
+  B10001,
+  B01110,
+  B00000
+};
+
+#endif
